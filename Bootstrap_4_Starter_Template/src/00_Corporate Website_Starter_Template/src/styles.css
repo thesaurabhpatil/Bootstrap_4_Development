@@ -1,0 +1,24 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.text-teal{
+    color: #00796b;
+}
+
+.basic-textarea textarea {
+    height: auto;
+}
+.rounded-corners textarea {
+    border-radius: 0.25rem;
+}
+
+.rounded-corners textarea:focus{
+    border: 2px solid #4687f4;
+}
+
+#footer-section #move-top-icon{
+    margin-top: -45px;
+}
+
