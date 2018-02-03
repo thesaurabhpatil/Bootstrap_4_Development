@@ -22,3 +22,26 @@ body{
     margin-top: -45px;
 }
 
+
+#trainers .card img{
+    margin-top: -80px;
+}
+
+#trainers .card:hover{
+    background-color: #00796b;
+    cursor: pointer;
+}
+
+#trainers .card:hover h3{
+    color: white;
+}
+
+#trainers .card:hover p{
+    color: white;
+}
+
+#trainers .card:hover .fa{
+    color: white;
+}
+
+
