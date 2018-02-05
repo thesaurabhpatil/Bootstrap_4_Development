@@ -49,16 +49,16 @@
                     <div>
                         <div class="d-flex flex-row text-center text-white
                         align-items-stretch">
-                            <div class="p-4 port-item bg-teal">
+                            <div class="p-4 port-item bg-teal" data-toggle="collapse" data-target="#home">
                                 <i class="fa fa-home d-block"></i> Home
                             </div>
-                            <div class="p-4 port-item bg-orange" >
+                            <div class="p-4 port-item bg-orange" data-toggle="collapse" data-target="#resume">
                                 <i class="fa fa-graduation-cap d-block"></i> Resume
                             </div>
-                            <div class="p-4 port-item bg-success" >
+                            <div class="p-4 port-item bg-success" data-toggle="collapse" data-target="#work">
                                 <i class="fa fa-folder-open-o d-block"></i> Work
                             </div>
-                            <div class="p-4 port-item bg-danger" >
+                            <div class="p-4 port-item bg-danger" data-toggle="collapse" data-target="#contact">
                                 <i class="fa fa-envelope d-block"></i> Contact
                             </div>
                         </div>
@@ -67,12 +67,211 @@
             </div>
         </div>
     </header>
+
+
+    <!-- Home Section -->
+    <div class="collapse" id="home">
+        <div class="py-5 card card-body bg-teal text-white">
+            <h2>Welcome to My Page</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, asperiores.</p>
+        </div>
+        <div class="py-5 card card-body bg-white text-dark">
+            <h3>My Skills</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut corporis cum doloribus dolorum eos error iste rem veritatis vitae voluptates!</p>
+            <hr>
+            <h4>HTML</h4>
+            <div class="progress">
+                <div class="progress-bar bg-teal" style="width: 100%">
+                </div>
+            </div>
+
+            <h4>CSS</h4>
+            <div class="progress">
+                <div class="progress-bar bg-teal" style="width: 85%">
+                </div>
+            </div>
+
+            <h4>JavaScript</h4>
+            <div class="progress">
+                <div class="progress-bar bg-teal" style="width: 75%">
+                </div>
+            </div>
+
+            <h4>Bootstrap</h4>
+            <div class="progress">
+                <div class="progress-bar bg-teal" style="width: 65%">
+                </div>
+            </div>
+
+            <h4>Angular JS</h4>
+            <div class="progress">
+                <div class="progress-bar bg-teal" style="width: 55%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Resume Section -->
+    <div class="collapse" id="resume">
+        <div class="py-5 card card-body bg-warning text-white">
+            <h2>My Resume</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, sequi!</p>
+        </div>
+        <div class="py-5 card card-body bg-white text-dark">
+            <h3>Where I Have Worked</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid architecto asperiores cum dicta, eaque error harum inventore itaque odio quibusdam.</p>
+            <div class="card-deck">
+                <div class="card text-center">
+                    <div class="card-header bg-warning text-white">
+                        <h3>Dev Masters</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta eum hic in odio omnis possimus quisquam similique totam velit?</p>
+                        <p class="bg-dark text-white p-2">Position : Fullstack Developer</p>
+                        <p class="bg-dark text-white p-2">Phone: (888) - 88 8888 </p>
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-warning font-weight-bold">Dates : 2015 - 2018</p>
+                    </div>
+                </div>
+                <div class="card text-center">
+                    <div class="card-header bg-warning text-white">
+                        <h3>Websites Pro</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta eum hic in odio omnis possimus quisquam similique totam velit?</p>
+                        <p class="bg-dark text-white p-2">Position : Web Developer</p>
+                        <p class="bg-dark text-white p-2">Phone: (777) - 77 7777 </p>
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-warning font-weight-bold">Dates : 2013 - 2015</p>
+                    </div>
+                </div>
+                <div class="card text-center">
+                    <div class="card-header bg-warning text-white">
+                        <h3>Web Designer</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta eum hic in odio omnis possimus quisquam similique totam velit?</p>
+                        <p class="bg-dark text-white p-2">Position : Designer</p>
+                        <p class="bg-dark text-white p-2">Phone: (666) - 66 6666 </p>
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-warning font-weight-bold">Dates : 2010 - 2013</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Work Section -->
+    <div class="collapse" id="work">
+        <div class="py-5 card card-body bg-success text-white">
+            <h2>My Work</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, in!</p>
+        </div>
+        <div class="py-5 card card-body bg-white text-dark">
+            <h3>What I have Built</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eos in iure nesciunt obcaecati odit, temporibus voluptate? Ipsa, molestiae voluptatibus?</p>
+            <hr>
+            <div class="row no-gutters">
+                <div class="col-md-3">
+                    <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox">
+                        <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid img-thumbnail">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox">
+                        <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid img-thumbnail">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox">
+                        <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid img-thumbnail">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox">
+                        <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid img-thumbnail">
+                    </a>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-md-3">
+                    <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox">
+                        <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid img-thumbnail">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox">
+                        <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid img-thumbnail">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://unsplash.it/1200/768.jpg?image=257" data-toggle="lightbox">
+                        <img src="https://unsplash.it/600.jpg?image=257" class="img-fluid img-thumbnail">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://unsplash.it/1200/768.jpg?image=258" data-toggle="lightbox">
+                        <img src="https://unsplash.it/600.jpg?image=258" class="img-fluid img-thumbnail">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="collapse" id="contact">
+        <div class="py-5 card card-body bg-danger text-white">
+            <h2>Contact Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, similique.</p>
+        </div>
+        <div class="py-5 card card-body bg-white text-dark">
+            <h3>Get in Touch</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus libero maiores numquam omnis provident repellat repellendus. Dolor id mollitia ut!</p>
+            <hr>
+            <div>
+                <form>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-danger text-white">
+                                <i class="fa fa-user"></i>
+                            </span>
+                        </div>
+                        <input class="form-control bg-dark text-muted"
+                               type="text" placeholder="Username">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-danger text-white">
+                                <i class="fa fa-envelope"></i>
+                            </span>
+                        </div>
+                        <input class="form-control bg-dark text-muted"
+                               type="email" placeholder="Email">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-danger text-white">
+                                <i class="fa fa-pencil"></i>
+                            </span>
+                        </div>
+                        <input class="form-control bg-dark text-muted"
+                               type="text" placeholder="Message">
+                    </div>
+                    <a class="btn btn-danger btn-block btn-lg">Submit Query</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <footer class="p-5 bg-dark text-white">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <a href="#" class="btn btn-outline-secondary btn-lg">
-                       <i class="fa fa-cloud-download"></i>
+                        <i class="fa fa-cloud-download"></i>
                         Download Resume
                     </a>
                 </div>
@@ -83,6 +282,9 @@
         </div>
     </footer>
 </div>
+
+
+
         
 
 <!-- ############################### END HERE ################################ -->
