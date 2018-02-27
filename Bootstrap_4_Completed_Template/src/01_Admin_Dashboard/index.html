@@ -78,20 +78,125 @@
     <div class="container">
          <div class="row">
             <div class="col-md-4">
-                <a class="btn btn-primary btn-block">
+                <a class="btn btn-primary btn-block" data-toggle="modal" data-target="#postsModal">
                    <i class="fa fa-plus-circle"></i> Add Posts</a>
             </div>
              <div class="col-md-4">
-                 <a class="btn btn-success btn-block">
+                 <a class="btn btn-success btn-block" data-toggle="modal" data-target="#categoryModal">
                      <i class="fa fa-plus-circle"></i> Add Categories</a>
              </div>
              <div class="col-md-4">
-                 <a class="btn btn-warning btn-block">
+                 <a class="btn btn-warning btn-block" data-toggle="modal" data-target="#userModal">
                      <i class="fa fa-plus-circle"></i> Add Users</a>
              </div>
          </div>
     </div>
 </section>
+
+<!-- USER MODAL -->
+<div class="modal animated rubberBand" id="userModal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-warning text-white">
+                <h3>Add User</h3>
+                <a class="close" data-dismiss="modal">
+                    <i class="fa fa-window-close"></i>
+                </a>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="User Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="User Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Confirm Password">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <a class="btn btn-secondary" data-dismiss="modal">Close</a>
+                <a class="btn btn-warning" href="index.html">Add User</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Category Modal -->
+<div class="modal animated flip" id="categoryModal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+                <h3>Add Category</h3>
+                <a class="close">
+                    <i class="fa fa-window-close" data-dismiss="modal"></i>
+                </a>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Category Name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="date" class="form-control">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <a class="btn btn-secondary" data-dismiss="modal">Close</a>
+                <a class="btn btn-success" href="index.html">Add Category</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Posts Modal -->
+<div class="modal animated zoomInRight" id="postsModal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h3>Add Posts</h3>
+                <a class="close" data-dismiss="modal">
+                    <i class="fa fa-window-close"></i>
+                </a>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Title" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Category</label>
+                        <select class="form-control">
+                            <option>Web Development</option>
+                            <option>Health & Wellness</option>
+                            <option>Entertainment</option>
+                            <option>Technology</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Image Upload</label>
+                        <input type="file" class="form-control-file">
+                        <small class="text-muted form-control-plaintext">Max Size 3 MB</small>
+                    </div>
+                    <div class="form-group">
+                        <label>Body</label>
+                        <textarea class="form-control" name="editor1"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <a class="btn btn-secondary" data-dismiss="modal">Close</a>
+                <a class="btn btn-primary" href="index.html">Add Post</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Main Section -->
 <section class="p-2 mt-2">
@@ -270,6 +375,24 @@
                         </a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Main Footer -->
+<section class="p-3 bg-dark text-white text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3>Copyright &copy; 2018, UiBrains.com</h3>
+                <p>All Rights Reserved</p>
+                <p>Developed & Maintained by
+                    <a class="text-warning" href="https://github.com/thenaveensaggam"
+                       target="_blank">
+                        <i class="fa fa-user-circle"></i> Naveen Saggam
+                    </a>
+                </p>
             </div>
         </div>
     </div>
