@@ -1,0 +1,28 @@
+/* Your custom styles */
+.carousel .carousel-indicators li {
+    max-width: 30px;
+    height: 10px;
+    border-radius: 0%;
+    cursor: pointer;
+}
+
+.text-teal {
+    color: #00796b;
+}
+
+#top-button{
+    margin-top: -110px;
+}
+
+/* Text Area */
+
+.basic-textarea textarea {
+    height: auto;
+}
+.rounded-corners textarea {
+    border-radius: 0.25rem;
+}
+
+.rounded-corners textarea:focus{
+    border: 2px solid #4687f4;
+}
