@@ -1,0 +1,24 @@
+/* Your custom styles */
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "/";
+    color: red;
+}
+
+.breadcrumb-item{
+    color: white;
+}
+
+.breadcrumb {
+    background-color: lightgreen;
+}
+
+.carousel .carousel-indicators li {
+    max-width: 30px;
+    height: 10px;
+    border-radius: 0%;
+    cursor: pointer;
+}
+
+
+
+
