@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/fontawesome-all.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <title>Collapse in Bootstrap4</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Collapse in Bootstrap4</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<div class="container mt-5">
+    <!--########################START HERE#########################-->
+
+    <!-- BUTTON WITH COLLAPSE -->
+    <button class="btn btn-success" data-target="#html_card" data-toggle="collapse">HTML</button>
+
+    <div class="collapse" id="html_card">
+        <div class="card">
+            <div class="card-body">
+                <h2>HTML</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, aspernatur consequuntur deleniti excepturi laboriosam sit voluptas voluptatibus? Asperiores aspernatur atque cumque dicta doloremque, doloribus eaque eligendi illo ipsam modi necessitatibus nulla obcaecati porro quaerat quisquam quod sequi sint tempore? Non.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ACCORDION -->
+    <div class="accordion">
+        <div class="card">
+            <div class="card-header bg-success text-white text-center" data-toggle="collapse" data-target="#html">
+                <h2 class="card-title">HTML</h2>
+            </div>
+            <div class="collapse" id="html">
+                <div class="card-body">
+                    <h3>HTML</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eius error ex fugiat fugit ipsam iste iusto, laborum molestias nihil placeat, quae quam recusandae repudiandae sunt temporibus vitae. Ab adipisci animi fugiat ipsum magnam maxime nihil non odio quae repudiandae!</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header bg-teal text-white text-center" data-toggle="collapse" data-target="#css">
+                <h2 class="card-title">CSS</h2>
+            </div>
+            <div class="collapse" id="css">
+                <div class="card-body">
+                    <h3>CSS</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eius error ex fugiat fugit ipsam iste iusto, laborum molestias nihil placeat, quae quam recusandae repudiandae sunt temporibus vitae. Ab adipisci animi fugiat ipsum magnam maxime nihil non odio quae repudiandae!</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header bg-warning text-white text-center" data-toggle="collapse" data-target="#js">
+                <h2 class="card-title">JavaScript</h2>
+            </div>
+            <div class="collapse" id="js">
+                <div class="card-body">
+                    <h3>JavaScript</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eius error ex fugiat fugit ipsam iste iusto, laborum molestias nihil placeat, quae quam recusandae repudiandae sunt temporibus vitae. Ab adipisci animi fugiat ipsum magnam maxime nihil non odio quae repudiandae!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </div>
+
+  <div style="margin-top:500px;"></div>
+
+<!-- BODY ENDS -->
+<script src="bootstrap/js/fontawesome-all.js"></script>
+<script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/mdb.min.js"></script>
+</body>
+</html>
