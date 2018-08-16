@@ -1,0 +1,31 @@
+.carousel .carousel-indicators li {
+    max-width: 40px;
+    height: 10px;
+    width: 40px;
+    border-radius: 0% !important;
+}
+.text-teal{
+    color: #00796b;
+}
+.top-icon{
+    margin-top: -120px;
+}
+.my-textarea{
+    height: auto;
+    border-radius: 10px;
+}
+.my-textarea:focus{
+    border: 2px solid #769ddd;
+    border-radius: 10px;
+}
+.trainer-img{
+    margin-top: -60px;
+}
+.trainer-card:hover{
+    background-color: #00796b;
+    cursor: pointer;
+}
+
+.trainer-card:hover .icon , .trainer-card:hover h3 , .trainer-card:hover p{
+    color: white;
+}
