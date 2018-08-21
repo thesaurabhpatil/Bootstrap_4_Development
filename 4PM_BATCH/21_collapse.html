@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/fontawesome-all.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <title>Collapse in Bootstrap4</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Collapse in Bootstrap4</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<div class="container mt-5">
+    <!--########################START HERE#########################-->
+
+    <!-- BUTTON WITH COLLAPSE -->
+    <a href="#" class="btn btn-success" data-toggle="collapse" data-target="#ui">UI Development</a>
+
+    <div class="collapse animated swing" id="ui">
+        <div class="card">
+            <div class="card-body text-success">
+                <h3 class="font-weight-bold">UI Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam blanditiis debitis dicta ea facere facilis fugiat fugit id natus nesciunt omnis, praesentium quibusdam, quisquam rem saepe soluta voluptas. Architecto at debitis eveniet itaque quas repellat. Dolorem ipsam molestias porro tenetur.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ACCORDION -->
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-header bg-success" id="headingOne">
+                    <a href="#" class="btn btn-outline-light" data-toggle="collapse" data-target="#collapseOne">HTML</a>
+            </div>
+
+            <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
+                <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header bg-teal" id="headingTwo">
+                <a href="#" class="btn btn-outline-light" data-toggle="collapse" data-target="#collapseTwo">CSS</a>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header bg-warning" id="headingThree">
+                <a href="#" class="btn btn-outline-light" data-toggle="collapse" data-target="#collapseThree">JavaScript</a>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </div>
+
+  <div style="margin-top:500px;"></div>
+
+<!-- BODY ENDS -->
+<script src="bootstrap/js/fontawesome-all.js"></script>
+<script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/mdb.min.js"></script>
+</body>
+</html>
